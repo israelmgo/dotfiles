@@ -13,6 +13,22 @@ ZSH_THEME="agnoster2"
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
+setopt hist_ignore_all_dups # ignorar duplicados
+
+export EDITOR="vim" 
+
+# color code completion!!!!  Wohoo!
+zstyle ':completion:*' list-colors "=(#b) #([0-9]#)*=36=31"
+# case insensitive completion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+# Don't prompt for a huge list, page it!
+zstyle ':completion:*:default' list-prompt '%S%M matches%s'
+# Don't prompt for a huge list, menu it!
+zstyle ':completion:*:default' menu 'select=0'
+# Have the newer files last so I see them first
+zstyle ':completion:*' file-sort modification revers
+# Complement process name with kill command
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31'
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
