@@ -19,22 +19,19 @@ export EDITOR="vim"
 
 # color code completion!!!!  Wohoo!
 zstyle ':completion:*' list-colors "=(#b) #([0-9]#)*=36=31"
-# case insensitive completion
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-# Don't prompt for a huge list, page it!
-zstyle ':completion:*:default' list-prompt '%S%M matches%s'
-# Don't prompt for a huge list, menu it!
-zstyle ':completion:*:default' menu 'select=0'
-# Have the newer files last so I see them first
-zstyle ':completion:*' file-sort modification revers
-# Complement process name with kill command
+zstyle ':completion:*' menu select=1 _complete _ignored _approximate
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31'
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Set to this to use case-sensitive completion
+# aliases
+  alias ls='ls --color=auto'
+  alias grep='grep --color=auto'
+  alias fgrep='fgrep --color=auto'
+  alias egrep='egrep --color=auto'
+  alias pubkey='cat ~/.ssh/id_rsa.pub'
+  alias dropbox='~/.dropbox-dist/dropboxd'
+   
+  
+  # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
 # Uncomment this to disable bi-weekly auto-update checks
