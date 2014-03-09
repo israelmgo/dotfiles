@@ -28,10 +28,9 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31
   alias fgrep='fgrep --color=auto'
   alias egrep='egrep --color=auto'
   alias pubkey='cat ~/.ssh/id_rsa.pub'
-  alias dropbox='~/.dropbox-dist/dropboxd'
-   
-  
-  # Set to this to use case-sensitive completion
+  alias dropbox='~/.dropbox-dist/dropboxd &'
+ 
+# Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
 # Uncomment this to disable bi-weekly auto-update checks
