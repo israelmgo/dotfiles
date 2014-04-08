@@ -1,7 +1,6 @@
 "Mi Vimrc
 "autor: israel
 "twitter: @israelmgo
-"
 
 syntax on
 set title
