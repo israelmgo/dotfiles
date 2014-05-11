@@ -29,7 +29,9 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31
   alias egrep='egrep --color=auto'
   alias pubkey='cat ~/.ssh/id_rsa.pub'
   alias dropbox='~/.dropbox-dist/dropboxd &'
- 
+  alias js='jekyll serve --detach'
+  alias jk='pkill ruby-mri'
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 

@@ -1,7 +1,3 @@
-"Mi Vimrc
-"autor: israel
-"twitter: @israelmgo
-
 syntax on
 set title
 set nocompatible
@@ -24,9 +20,10 @@ set history=1000
 set undolevels=500
 set noswapfile
 
-set background=dark
+set background=light
 set t_Co=256
-colorscheme molokai256 "https://github.com/joedicastro/vim-molokai256/blob/master/colors/molokai256.vim 
+colorscheme hemisu 
+" colorscheme molokai256 "https://github.com/joedicastro/vim-molokai256/blob/master/colors/molokai256.vim 
 
 filetype on
 filetype plugin on
