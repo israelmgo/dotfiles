@@ -16,14 +16,18 @@ set lazyredraw
 set autoread
 set hidden
 
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
 set history=1000
 set undolevels=500
 set noswapfile
 
 set background=light
 set t_Co=256
-colorscheme hemisu 
-" colorscheme molokai256 "https://github.com/joedicastro/vim-molokai256/blob/master/colors/molokai256.vim 
+colorscheme lucius
 
 filetype on
 filetype plugin on
