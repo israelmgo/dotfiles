@@ -51,10 +51,12 @@ HISTCONTROL=ignoreboth
   alias ip='curl http://ifconfig.me'
 
 # ssh
-	export SSH_KEY_PATH="~/.ssh/dsa_id"
+export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # editor
-	export EDITOR="vim"
+export EDITOR="vim"
+
+bind '"\C-i": menu-complete'
 
 #===========================================================================
 # ASCII
