@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster2"
+#ZSH_THEME="nebirhos"
 
 #------------------------------
 # Historial
@@ -29,7 +29,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31
   alias egrep='egrep --color=auto'
   alias pubkey='cat ~/.ssh/id_rsa.pub'
   alias dropbox='~/.dropbox-dist/dropboxd &'
-  alias js='jekyll serve --detach'
+  alias js='jekyll2.0 serve --detach'
   alias jk='pkill ruby-mri'
 
 # Set to this to use case-sensitive completion

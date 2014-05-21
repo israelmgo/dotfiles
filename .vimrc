@@ -27,7 +27,7 @@ set noswapfile
 
 set background=light
 set t_Co=256
-colorscheme lucius
+colorscheme molokai256
 
 filetype on
 filetype plugin on

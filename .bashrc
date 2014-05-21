@@ -56,10 +56,11 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # editor
 export EDITOR="vim"
 
-#TAB menu-complete
+# TAB menu-complete
 bind '"\C-i": menu-complete'
 
 #===========================================================================
 # ASCII
 #===========================================================================
-#echo ''
+echo 'Welcome to openSUSE 13.1 "Bottle" - Kernel 3.11.10
+Have a lot of fun!'
