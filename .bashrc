@@ -46,7 +46,7 @@ HISTCONTROL=ignoreboth
   alias pubkey='cat ~/.ssh/id_rsa.pub'
   alias dropbox='~/.dropbox-dist/dropboxd &'
   alias js='jekyll2.0 serve --detach'
-  alias jk='pkill ruby-mri'
+  alias jk='pkill jekyll'
   alias ipcon='nmap -sP 192.168.1.0/24'
   alias ip='curl http://ifconfig.me'
 
